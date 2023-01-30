@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 const TodoList = ({ todos, remove, update }) => {
   return (
     <div className="list-container">
-      <h2>Todos List</h2>
+      <h2>Todos List! Works</h2>
       <div className="list">
         {todos.map((todo, index) => (
           <TodoItem
